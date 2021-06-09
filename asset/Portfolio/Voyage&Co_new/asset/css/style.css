@@ -1,0 +1,157 @@
+body{
+    font-family: Courier;
+    margin: 8% 8%;
+    margin-top: 2%;
+    background-image: url("../img/blue_sea_water_2.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(216, 199, 162);
+    font-family: 'Arizonia', cursive;
+    font-size: 300%;
+    color: black;
+    text-shadow: 0px 4px 5px white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/palmier.jpg");
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+    border: 2px solid black;
+}
+
+
+#navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    font-size: x-large;
+    padding: 1% 0;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 10px;
+    width: 100%;
+    border: 2px solid black;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 2% 16px;
+}
+li a:hover{
+    color: rgb(0, 132, 255);
+}
+
+
+#search{
+    display: flex;
+    align-items: center;
+    padding-right: 4%;
+}
+input{
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+#intro{
+    display: flex;
+    box-sizing: border-box;
+    margin: 4%;
+}
+div>p{
+    padding: 3%;
+    background-color: white;
+    font-size: large;
+    border-radius: 10px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    background-color: white;
+}
+article>p{
+    padding: 5%
+}
+article>div{
+    width: 80%;
+    height: auto;
+}
+#sicile{
+    background-image: url("../img/sicile.jpg");
+    background-origin: center;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 90%;
+}
+#croatie{
+    background-image: url("../img/croatie.jpg");
+    background-origin: center;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 90%;
+}
+#grece{
+    background-image: url("../img/grece.jpg");
+    background-origin: center;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 90%;
+}
+
+
+@media screen and (max-width: 800px){
+    header{
+        display: flex;
+        font-size: x-large;
+        height: 200px;
+        width: 100%;
+    }
+    #navigator{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
